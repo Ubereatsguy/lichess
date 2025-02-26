@@ -2,7 +2,7 @@ import berserk
 import os
 
 # Connect to Lichess API
-session = berserk.TokenSession(os.getenv(lip_7hF2nxlWTGnflqHbExWP))
+session = berserk.TokenSession(os.getenv("LICHESS_API_TOKEN"))
 client = berserk.Client(session)
 
 # Listen for events
